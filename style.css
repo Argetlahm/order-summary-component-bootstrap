@@ -13,7 +13,6 @@
 }
 
 h1{
-    font-weight: 900;
     font-size: 24px;
     margin: 18px auto;
 }
@@ -23,6 +22,16 @@ p {
     font-size: 16px;
     color: hsl(224, 23%, 55%);
 }
+
+button.btn{
+    font-weight: 700;
+}
+
+p strong, h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
 
 /* #clip-path {
     clip-path: polygon(0 0, 350 0, 350 600, 0 600);
@@ -48,6 +57,12 @@ p {
 
 .plan-desc{
     flex-direction: column;
+    
+}
+
+.plan-link{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
 }
 
 body {
@@ -64,6 +79,11 @@ body {
     border-top-left-radius: inherit;
     height: 30%;
 }
+
+.btn-payment {
+    background-color: hsl(245, 75%, 52%);
+}
+
 
 /* .card img {
     
