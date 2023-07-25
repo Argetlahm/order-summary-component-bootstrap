@@ -10,6 +10,7 @@
     text-align: center;
     display: flex;
     /* clip-path: url(#clip-path); */
+    box-shadow: 0 20px 50px 0px lightgray;
 }
 
 h1{
@@ -17,20 +18,38 @@ h1{
     margin: 18px auto;
 }
 
+p, .btn-cancel {
+    color: hsl(224, 23%, 55%);
+}
+
 p {
     font-weight: 500;
     font-size: 16px;
-    color: hsl(224, 23%, 55%);
+}
+
+.btn-payment:hover {
+    background-color: hsl(247, 49%, 65%);
+    border: 0px;
+    box-shadow: 0 20px 20px hsla(247, 49%, 65%, 20%);
+    position: relative;
+    bottom: 2px;
+}
+
+.btn-link:hover {
+    color: hsl(247, 49%, 65%);
+    text-decoration: none;
 }
 
 button.btn {
     font-weight: 700;
     margin-top: 15px;
+    font-size: 16px;
 }
 
 .btn-lg {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
+    padding: 12px;
 }
 
 p strong, h1{
@@ -67,9 +86,11 @@ p strong, h1{
     
 }
 
-.plan-link{
+.btn-link{
     text-decoration: underline;
     color: hsl(245, 75%, 52%);
+    position: relative;
+    bottom: 9px;
 }
 
 body {
